@@ -10,7 +10,7 @@ scaler = joblib.load('ML/Suppervised/Classification/scaler.joblib')
 
 @app.get("/")
 def root():
-    return "Welcome To Tuwaiq Academy"
+    return "Welcome To my work"
 
 class InputFeatures(BaseModel):
     age: float
